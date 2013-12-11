@@ -1,0 +1,325 @@
+
+.clearme{
+  overflow: hidden;
+}
+
+#container{
+  background: #000;
+  min-width:380px;
+}
+
+.headingRegion {
+margin: 0 -15px 0 -15px;
+background: url(imgs/headerRp.jpg) repeat-x 0 0;
+height: 44px;
+padding-top: 12px;
+}
+
+#mainRegionContainer{
+  margin-top:50px;
+}
+
+/*  local styles  */
+
+#pageContent{
+  margin-bottom:50px;
+}
+
+.pageContextNavigation {
+	display:block;
+	position:relative;
+	width:950px;
+	background-image:none;
+	font-size:0.8em;
+	background-color:#262626;
+	height:3em;
+	vertical-align:bottom;
+}
+
+.pageContextNavigation ul {
+	list-style-type:none;
+	height:3em;
+	vertical-align:bottom;
+	position:absolute;
+}
+
+.pageContextNavigation li {
+	display:inline;
+	float:left;
+	width:125px;
+	padding-left:0.5em;
+	text-align:center;
+		height:3em;
+	vertical-align:bottom;
+}
+
+
+#sacstate_videoplayer {
+    display:block;
+    position:relative;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.videoRegion{
+  background: url(imgs/bgRepeat.jpg) repeat-x 0 0;
+}
+
+.ss-videoplayer {
+    display:block;
+    position:relative;
+
+}
+#sacstate_videoplayer_wrapper {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+
+.ss-videoplayer h1,
+.ss-videoplayer h2,
+.ss-videoplayer h3,
+.ss-videoplayer h4,
+.ss-videoplayer h5,
+.ss-videoplayer h6 {
+    font-family: "trajan pro", georgia, sans-serif;
+    text-transform:uppercase;
+}
+
+.ss-videoplayer p {}
+
+.ss-videoplayer a {}
+
+.ss-videoplayer ul {}
+.ss-videoplayer ul li {}
+
+.ss-videoplayer-metadata-container {
+    display:block;
+    position:relative;
+    width:100%;
+    height:auto;
+    padding:0;
+    margin-top:1em;
+    margin-bottom:1em;
+    margin-left:auto;
+    margin-right:auto;  
+
+}
+
+.ss-videoplayer-metadata-container p {
+    font-size:1.3em;
+    background-color:#262626;
+    color:#fff;
+}
+
+
+
+.ss-videogallery  {display:block; position:relative; margin-top:1em; margin-bottom:3em;overflow:hidden;}
+.ss-videogallery p {color:#fff; background-color:#262626;font-size:1.2em;}
+.ss-videogallery-list {display:block; position:relative; }
+.ss-videogallery-list ul {padding-left:0;margin-left:0;overflow-y:scroll; overflow-x:hidden; height:710px;}
+.ss-videogallery-list ul li {background-color:#262626;padding:1em; border-bottom:1px inset #444;}
+
+.ss-videogallery-metadata {display:block; position:relative;clear:both;}
+.ss-videogallery-metadata img {display:inline; position:relative;   }
+.ss-videogallery-metadata em {color:#fff; font-size:1.4em;}
+.ss-videogallery-metadata p {color:#fff; font-size:1.2em;padding-left:0; padding-right:1em;}
+
+
+/********************************/
+/** course videos list **/
+.ss-coursevideos-list {display:block; position:relative; }
+.ss-coursevideos-list ul {padding-left:0;margin-left:0; overflow-y:scroll; overflow-x:hidden; height:480px;}
+
+.ss-coursevideos-list ul li h4 {color:#fff; font-size:1.2em; padding-bottom:0; margin-bottom:0;}
+.ss-coursevideos-list ul li p {color:#fff99e; font-size:1.1em;padding-left:0; padding-right:1em; padding-bottom:0; line-height:normal; margin-bottom:0.2em;}
+
+
+
+/* jg explicit text styles */
+
+/* Player Styles */
+
+.ss-videoplayer-container {
+    display:block;
+    position:relative;
+    margin:25px 0 0;
+}
+
+video{
+  width:100% !important;
+  height:100% !important;
+}
+
+.ss-videoplayer.backdrop {
+display: block;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+padding: 1em;
+background-color: rgba(0,0,0,0.3);
+border: 1px solid rgba(221, 203, 147, 0.32);
+
+}
+
+.video-meta{
+  font-size: 15px;
+}
+
+/* side */
+
+.ss-coursevideos-list ul li {
+  background-color:rgba(0,0,0,0.2);color:#fff; padding:1em; border-bottom:1px inset #444;}
+
+.ss-coursevideos-list ul{
+ border: 1px solid #000;
+}
+
+.headingRegion h1{
+  font-size:20px;
+  border-bottom:none;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ss-coursevideos-list h3{
+  border-top:none;
+  background-image:none;
+}
+
+h3{
+  font-size:14px !important;
+}
+
+h4 a{
+  font-size:12px !important;
+}
+
+.ss-coursevideos-list p{
+  font-size:11px !important;
+}
+
+.ss-coursevideos-list .media {
+  height: auto;
+  overflow: auto;
+  padding:10px 0;
+  margin:0;
+  border:none;
+}
+
+.ss-coursevideos-list .media li{
+  display: inline;
+  border:none;
+  background: transparent;
+}
+
+.ss-coursevideos-list .media li a{
+  color:#000;
+  background: #A39F60;
+  border:1px solid #ccc;
+  border-radius:5px;
+  padding:2px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition:all .6s;
+}
+
+.ss-coursevideos-list .media li a:hover{
+  color:#fff;
+  background: #333;
+}
+
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+.pagenav-container {
+margin-top: 0;
+padding-top: 42px;
+height: 95px;
+background: url(imgs/menuRepeat.jpg) repeat-x 0 0;
+}
+
+.pagenav-container .col-md-12{
+  padding:0;
+}
+
+.nav{
+  margin-top:50px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+background: rgba(0,0,0,0.4);
+color: #eee;
+}
+
+.nav-justified {
+  margin:0;
+  padding:0;
+}
+
+.nav-justified > li > a {
+transition: all 1s;
+margin-bottom: 0;
+padding-top: 15px;
+padding-bottom: 15px;
+color: #A39F60;
+text-transform: uppercase;
+font-weight: bold;
+text-align: center;
+border-right: 1px inset #444;
+text-decoration: none;
+}
+
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+}
+.nav-justified > li:first-child > a {
+  border-radius:0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 41px;
+    overflow: hidden;
+  }
+
+  .nav-justified > li > a {
+    height:60px;
+    padding-top:10px;
+    border-left: none;
+    border-right: 1px inset #444;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius:0;
+  }
+  .nav-justified > li:last-child > a {
+    border-radius: 0;
+    border-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .headingRegion h1{
+    font-size:14px;
+  }
+
+  .nav-justified > li a {
+	background: #222;
+	border-bottom: 1px solid #111;
+  }
+
+}
