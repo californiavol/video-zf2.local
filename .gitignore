@@ -1,7 +1,7 @@
 local.php
 /netbeans-meta/nbproject/private/
 /config/*
-l/module/Application/config/*
+/module/Application/config/*
 ._*
 .~lock.*
 .buildpath
